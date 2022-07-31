@@ -35,6 +35,9 @@ a, button{
 li{
     list-style: none;
 }
+img{
+    user-select: none;
+}
 ::-webkit-scrollbar{
     width: 10px;
 }
@@ -177,9 +180,28 @@ h1 span{
     padding: 0.5rem;
     transition: 0.3s;
 }
+.socialBtn{
+    margin-bottom: 1rem;
+}
 .socialContainer a:hover{
     color: var(--blue);
     
+}
+.githubBtn svg{
+    fill: var(--light);
+    stroke-width: 17px;
+    stroke: var(--light);
+    transition: 0.3s;
+
+}
+a.githubBtn{
+    padding: 0.5rem 0.4rem;
+    display: flex;
+
+}
+.githubBtn:hover svg{
+    fill: var(--blue);
+    stroke: var(--blue);
 }
 /* skills */
 #services{
@@ -449,6 +471,7 @@ input, textarea{
     margin-bottom: 1rem;
     color: var(--light);
     resize: vertical;
+    user-select: none;
 }
 input:focus, textarea:focus {
     outline:  var(--blue) solid 1px ;

@@ -12,11 +12,11 @@ for (let i = 0; i < skillcirclesArr.length; i++) {
 // filters
 
 let projects = [...document.querySelectorAll('.project')]
+let filters = [...document.querySelectorAll('.filters')]
 console.log(projects)
 
 function filter(text , id) {
     for (let i = 0; i < projects.length; i++) {
-        // console.log(JSON.parse(projects[i].getAttribute('data-filters')[i]));
         if (JSON.parse(projects[i].getAttribute('data-filtters')).includes(text)) {
             projects[i].style.display = 'inline-block'
         } else {
@@ -24,6 +24,10 @@ function filter(text , id) {
             projects[i].style.display = 'none'
         }
     }
+    filters.forEach(element => {
+        element.classList.remove('filterActive')
+    });
+    document.getElementById(id).classList.add('filterActive')
 }
 
 
@@ -117,7 +121,7 @@ function navOpen(id) {
 let lastScrollY = scrollY
 const nav = document.querySelector('nav')
 window.addEventListener('scroll', () => {
-    if (lastScrollY < scrollY) {
+    if (lastScrollY <= scrollY) {
         nav.style.top = '-15vh'
     } else{
         nav.style.top = '0'
@@ -128,19 +132,28 @@ window.addEventListener('scroll', () => {
 
  
 
+// Scroll reveal
 
 
 
 
 
-
-
-
-
-
-
-
-
+ScrollReveal({ reset: true });
+if (scrollY == 0) {
+    ScrollReveal().reveal('.navLink', { interval: 150 , delay :250 , reset: false , scale: 0});
+    
+}
+ScrollReveal().reveal('.socialBtn', { interval: 150 , delay: 900 , scale: 0});
+ScrollReveal().reveal('.homeHeadline', {delay: 500})
+ScrollReveal().reveal('.typeWrite', {delay: 1000})
+ScrollReveal().reveal('.heroBtn', {delay: 1500})
+ScrollReveal().reveal('.homeImg', {delay: 1500})
+ScrollReveal().reveal('.sectionTitle' , {delay: 200}) 
+ScrollReveal().reveal('.service', { interval: 200 , delay: 500 , scale: 0});
+ScrollReveal().reveal('.project', { interval: 200 , delay: 500 , scale: 0});
+ScrollReveal().reveal('.skill', { interval: 150 , delay: 500 , scale: 0});
+ScrollReveal().reveal('.card', { interval: 150 , delay: 500 , scale: 0.5});
+ScrollReveal().reveal('.contactForm' , {delay: 700}) 
 
 
 
