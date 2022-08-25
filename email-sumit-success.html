@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="images/nav logo.png" type="image/x-icon">
+    <title>Success!</title>
+</head>
+<body>
+    <nav id="nav">
+        <a href="#" id="navLogo" ><img src="images/nav logo.png" alt=""></a>
+        <div class="navList" id="navList">
+            
+                <a href="index.html" class="navLink" id="homeBtn" class="homeBtn">Home</a>
+                <a href="index.html" class="navLink" id="servicesBtn">Services</a>
+                <a href="index.html" class="navLink" id="projectsBtn">Projects</a>
+                <a href="index.html" class="navLink" id="skillsBtn">Skills</a>
+                <a href="index.html" class="navLink" id="contactsBtn">Contact</a>
+                <a href="#" id="cvBtn" class="Btn navLink">Download Cv!</a>
+            
+            <div class="hamburgerMenu" onclick="navOpen('navOpener')">
+                <div class="menuUp"></div>
+                <div class="menuCenter"></div>
+                <div class="menuDown"></div>
+            </div>
+        </div>
+        <div class="hamburgerMenu" id="navOpener" onclick="navOpen(this.id)">
+            <div class="menuUp"></div>
+            <div class="menuCenter"></div>
+            <div class="menuDown"></div>
+        </div>
+    </nav>
+    <section id="home" class="successPage">
+        <h1 class="sectionTitle">Congratulations!</h1>
+        <p class="projectDescription successMessage">Your Contact Form was Sent Successfully to <a href="https://www.instagram.com/walidmh_/">walidmh_</a> 's email . <br> we will respond to you as soon as possible once we receive you email</p>
+        <a href="index.html" class="Btn">Go Back to walidmh's Portfolio</a>
+    </section>
+</body>
+</html>

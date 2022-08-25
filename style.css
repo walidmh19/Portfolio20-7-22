@@ -260,18 +260,32 @@ a.githubBtn{
     margin-left: 0;
 }
 .filters{
-    margin: 3rem 1rem 8rem;
+    margin: 3rem 1rem 4rem;
     background: var(--bg2);
-    padding: 0.5rem 1rem;
+    padding: 0.9rem 1rem 0.5rem;
     border-radius: 5px;
+    overflow-x: scroll;
+    display: flex;
+    gap: 1rem;
+    justify-content: flex-start;
+    align-items: center;
+}
+.filters::-webkit-scrollbar{
+    height: 10px;
+
+}
+.filters::-webkit-scrollbar-track{
+    background: var(--bg2);
+    border-radius:  5px;
 }
 .filters p{
     display: inline-block;
     color: var(--light); 
-    margin-right: 1rem;
+    word-break: keep-all;
+    white-space: nowrap;
 }
 .filters button{
-    margin: 10px;
+    margin: 20px;
     margin-bottom: 1rem;
     all: unset;
     background: var(--bg1);
@@ -280,6 +294,7 @@ a.githubBtn{
     border-radius: 100vmax;
     cursor: pointer;
     border: 1px solid var(--bg1);
+    white-space: nowrap;
 }
 .filters button:hover{
     background: var(--bg2);
@@ -753,4 +768,19 @@ form input[type="submit"]{
         grid-column: span 1;
         margin-top: 3rem;
     }
+}
+.successPage{
+    display: block !important;
+}
+.successPage .sectionTitle{
+    margin: 0;
+    margin-bottom: 3rem;
+}
+.successPage p a{
+    text-decoration: underline;
+}
+.successMessage{
+    color: var(--light);
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
 }
