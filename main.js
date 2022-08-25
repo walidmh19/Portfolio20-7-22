@@ -138,7 +138,7 @@ window.addEventListener('scroll', () => {
 
 
 
-ScrollReveal({ reset: true });
+// ScrollReveal({ reset: true });
 if (scrollY == 0) {
     ScrollReveal().reveal('.navLink', { interval: 150 , delay :250 , reset: false , scale: 0});
     
@@ -156,7 +156,7 @@ ScrollReveal().reveal('.card', { interval: 150 , delay: 500 , scale: 0.5});
 ScrollReveal().reveal('.contactForm' , {delay: 700}) 
 
 
-
+var ScrollReveal = function(){}
 
 
 
