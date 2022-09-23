@@ -270,13 +270,19 @@ a.githubBtn{
     justify-content: flex-start;
     align-items: center;
 }
+
 .filters::-webkit-scrollbar{
-    height: 10px;
+    height: 5px;
 
 }
 .filters::-webkit-scrollbar-track{
     background: var(--bg2);
     border-radius:  5px;
+}
+.filters::-webkit-scrollbar-thumb{
+    background-color: var(--bg1);
+    border: 1px solid black;
+
 }
 .filters p{
     display: inline-block;
@@ -313,7 +319,8 @@ a.githubBtn{
 .projectTitle{
     position: relative;
     display: inline-block;
-    font-size: 1rem;
+    font-size: 2rem;
+    text-shadow: 0 0 10px #00000099;
 }
 
 .projectTitle::after{
@@ -343,7 +350,8 @@ a.githubBtn{
     width: 100%;
 }
 .project div .Btn{
-    font-size: 1rem;
+    font-size: 1.3rem;
+    padding: 0.625rem 1.25rem;
 }
 .project:hover div{
     bottom: 0px;
@@ -533,13 +541,31 @@ form input[type="submit"]{
     font-size: 1.5rem;
     display: none;
 }
-
+.projectDescription{
+    font-size: 1.3rem;
+}
+@media screen and (max-width: 1400px) {
+    .project div .Btn{
+        font-size: 1rem;
+        padding: 0.25rem 0.5rem;
+    }
+    .projectTitle{
+        font-size: 1.4rem;
+    }
+    .projectDescription{
+        font-size: 1rem;
+    }
+}
 @media screen and (max-width: 1000px) {
     .projectDescription{
-        font-size: 0.7rem;
+        font-size: 1.5rem;
     }
-    .project div{
+    /* .project div{
         height: 100%;
+    } */
+    .project div .Btn{
+        font-size: 1rem;
+        padding: 0.5rem 1rem;
     }
     .sectionTitle{
         font-size: 3rem;
@@ -562,6 +588,11 @@ form input[type="submit"]{
     #home .Btn{
         font-size: 1rem;
     }
+    .projectsGridContainer{
+        grid-template-columns: repeat(2, 1fr);
+        
+    }
+
 }
 @media screen and (max-width:782px) {
     .hamburgerMenu{
@@ -702,6 +733,19 @@ form input[type="submit"]{
     }
     
 }
+@media screen and (max-width: 650px) {
+    .projectTitle{
+        font-size: 1.2rem;
+
+    }
+    .projectDescription{
+        font-size: 1rem;
+    }
+    .project div .Btn{
+        padding: 0.1rem 0.2rem;
+    }
+}
+
 @media screen and (max-width: 550px) {
     #home{
         flex-direction: column;
@@ -720,8 +764,17 @@ form input[type="submit"]{
     }
     
     .sectionTitle{
-        font-size: 2.5rem;
+        font-size: 2rem;
         margin-right: 0;
+    }
+    .projectTitle{
+        font-size: 2.5rem;
+    }
+    .projectDescription{
+        font-size: 2rem;
+    }
+    .project div .Btn{
+        padding: 1rem 2rem;
     }
     .card p{
         font-size: 1rem !important;
@@ -755,6 +808,15 @@ form input[type="submit"]{
     .sectionTitle{
         margin: 8rem 2rem 4rem !important;
     }
+    .projectTitle{
+        font-size: 2rem;
+    }
+    .projectDescription{
+        font-size: 1.25rem;
+    }
+    .project div .Btn{
+        padding: 0.5rem 1rem;
+    }
 }
 @media screen and (max-width: 375px) {
     .skillsContainer{
@@ -767,6 +829,15 @@ form input[type="submit"]{
     .skill:is( :nth-child(5)){
         grid-column: span 1;
         margin-top: 3rem;
+    }
+    .projectTitle{
+        font-size: 1.5rem;
+    }
+    .projectDescription{
+        font-size: 1rem;
+    }
+    .project div .Btn{
+        padding: 0.25rem 0.5rem;
     }
 }
 .successPage{
@@ -784,3 +855,9 @@ form input[type="submit"]{
     font-size: 1.5rem;
     margin-bottom: 2rem;
 }
+
+
+
+
+
+
