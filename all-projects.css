@@ -1,0 +1,11 @@
+#allProjects{
+    background: var(--bg1);
+    padding: 15vh 8rem 20vh;
+    min-height: 100vh;
+}
+.sectionTitle{
+    margin-left: 0;
+}
+.project img{
+    object-fit: cover;
+}
