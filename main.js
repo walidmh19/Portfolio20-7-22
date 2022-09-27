@@ -112,6 +112,7 @@ function navOpen(id) {
     $.classList.toggle('menuActive')
     const $$ = document.getElementById('navList')
     $$.classList.toggle('navListOpen')
+
 }
     
 
@@ -139,10 +140,14 @@ window.addEventListener('scroll', () => {
 
 
 // ScrollReveal({ reset: true });
-if (scrollY == 0) {
+if (document.width > 782) {
+    if (scrollY == 0) {
     ScrollReveal().reveal('.navLink', { interval: 150 , delay :250 , reset: false , scale: 0});
     
 }
+}
+
+
 ScrollReveal().reveal('.socialBtn', { interval: 150 , delay: 900 , scale: 0});
 ScrollReveal().reveal('.homeHeadline', {delay: 500})
 ScrollReveal().reveal('.typeWrite', {delay: 1000})
@@ -156,7 +161,7 @@ ScrollReveal().reveal('.card', { interval: 150 , delay: 500 , scale: 0.5});
 ScrollReveal().reveal('.contactForm' , {delay: 700}) 
 
 
-var ScrollReveal = function(){}
+// var ScrollReveal = function(){}
 
 
 
