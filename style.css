@@ -744,9 +744,6 @@ form input[type="submit"]{
     .project div .Btn{
         padding: 0.1rem 0.2rem;
     }
-}
-
-@media screen and (max-width: 550px) {
     #home{
         flex-direction: column;
         height: unset;
@@ -762,6 +759,11 @@ form input[type="submit"]{
     .servicesGridContainer , .projectsGridContainer , .info{
         grid-template-columns: repeat(1,1fr);
     }
+}
+
+@media screen and (max-width: 550px) {
+    
+   
     
     .sectionTitle{
         font-size: 2rem;
@@ -796,6 +798,10 @@ form input[type="submit"]{
     }
     .socialContainer a{
         width: 1rem;
+        margin: 0;
+    }
+    .githubBtn {
+        width: 30px !important;
     }
     #scrollToTopBtn{
         width: 2.5rem;
