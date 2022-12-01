@@ -11,7 +11,7 @@
     <link rel="shortcut icon" href="images/nav logo.png" type="image/x-icon">
     <script src="main.js" defer></script>
     <script src="https://unpkg.com/scrollreveal"></script>
-
+    <script src="index.js" defer></script>
 </head>
 <body>
     <!-- Nav Bar -->
@@ -128,6 +128,9 @@
               <path d="M0 0v5.63C149.93 59 314.09 71.32 475.83 42.57c43-7.64 84.23-20.12 127.61-26.46 59-8.63 112.48 12.24 165.56 35.4C827.93 77.22 886 95.24 951.2 90c86.53-7 172.46-45.71 248.8-84.81V0z" />
             </svg>
           </div>
+          <button onclick="scrollToTop()" id="scrollToTopBtn">
+            <i class="fa-solid fa-angles-up"></i>
+        </button>
       </section>
     <!-- Projects -->
       <section id="projects">
@@ -142,66 +145,7 @@
             <button class="filters" id="responsiveFilter" onclick="filter(this.innerText.toLowerCase() , this.id)">Responsive</button>
         </div>
         <div class="projectsGridContainer">
-            <div class="project" data-filtters='["all" , "front end" , "responsive" ]'>
-                <img src="projects-images/edie-homepage.png" alt="">
-                <div>
-                    <h2 class="projectTitle">Edie Homepage</h2>
-                    <p class="projectDescription">Simple Homepage</p>
-                    <a href="https://edie-homepage-by-walidmh.netlify.app/" class="Btn" target="_blank">demo</a>
-                </div>
-            </div>
-
-            <div class="project" data-filtters='["all" , "front end" , "responsive" ]'>
-                <img src="projects-images/button-generator.png" alt="">
-                <div>
-                    <h2 class="projectTitle">Button Generator</h2>
-                    <p class="projectDescription">CSS Button Generator</p>
-                    <a href="https://button-generator-by-walidmh.netlify.app/" class="Btn" target="_blank">demo</a>
-                </div>
-            </div>
-
-
-            <div class="project" data-filtters='["all" , "front end" , "responsive" ]'>
-                <img src="projects-images/rock-paper-scissors.png" alt="">
-                <div>
-                    <h2 class="projectTitle">Tic Tac Toe</h2>
-                    <p class="projectDescription">Rock Paper Scissors game.</p>
-                    <a href="https://rock-paper-scissors-by-walidmh.netlify.app/" class="Btn" target="_blank">demo</a>
-                </div>
-            </div>
-
-
-
-
-            <div class="project" data-filtters='["all" , "front end" , "responsive" ]'>
-                <img src="projects-images/calculator.png" alt="">
-                <div>
-                    <h2 class="projectTitle">Calculator</h2>
-                    <p class="projectDescription">Scientific Calculator Web App</p>
-                    <a href="https://calculator-by-walidmh.netlify.app/" class="Btn" target="_blank">demo</a>
-                </div>
-            </div>
-
             
-
-            
-            <div class="project" data-filtters='["all" , "front end"]'>
-                <img src="projects-images/tic-tac-toe.png" alt="">
-                <div>
-                    <h2 class="projectTitle">Tic Tac Toe</h2>
-                    <p class="projectDescription">Tic Tac Toe game.</p>
-                    <a href="https://tic-tac-toe-by-walidmh.netlify.app/" class="Btn" target="_blank">demo</a>
-                </div>
-            </div>
-
-            <div class="project" data-filtters='["all" , "front end" , "responsive" , "full stack"]'>
-                <img src="projects-images/to-do-list.png" alt="">
-                <div>
-                    <h2 class="projectTitle">To Do App</h2>
-                    <p class="projectDescription">Simple LocalStorage-based To Do Web App</p>
-                    <a href="https://to-do-list-by-walidmh.netlify.app/" class="Btn" target="_blank">demo</a>
-                </div>
-            </div>
 
         </div>
         <a href="/see-more.html" class="Btn seeMore">See More</a>
@@ -305,7 +249,7 @@
                 </div>
                 <div class="card">
                     <i class="fa-solid fa-circle-check"></i>
-                    <p>Avalible for Freelance</p>
+                    <p>Available for Freelance</p>
                 </div>
             </div>
             <div class="contactForm">
@@ -314,23 +258,21 @@
                     <input type="hidden" name="_captcha" value="false">
                     <input type="hidden" name="_next" value="https://walidmh-porfolio.netlify.app/email-submit-success.html">
                     <div>
-                        <label for="nameInp">Name<input type="text" id="nameInp" placeholder="ex: John" name="name" required></label>
+                        <label for="nameInp">Name<input type="text" id="nameInp" placeholder="John" name="name" required></label>
                         
-                        <label for="subjectInp">Subject<input type="text" id="subjectInp" placeholder="ex: restaurant website" name="subject" required></label>
+                        <label for="subjectInp">Subject<input type="text" id="subjectInp" placeholder="restaurant website" name="subject" required></label>
                         
                     </div>
                     <label for="emailInp">E-mail</label>
-                    <input type="email" id="emailInp" placeholder="ex: someone@example.com" name="email">
+                    <input type="email" id="emailInp" placeholder="someone@example.com" name="email">
                     <label for="descriptionInp">Description</label>
-                    <textarea  id="descriptionInp" cols="30" rows="10" placeholder="ex: I have a merch and i wamt to build an online store for it" name="description"></textarea>
+                    <textarea  id="descriptionInp" cols="30" rows="10" placeholder="I have a merch and i want to build an online store for it" name="description"></textarea>
                     <input type="submit" class="Btn" value="Start a conversation">
                 </form>
             </div>
         </div>
     </section>
-    <button onclick="scrollToTop()" id="scrollToTopBtn">
-        <i class="fa-solid fa-angles-up"></i>
-    </button>
+    
 
 </body>
 </html>

@@ -1,0 +1,121 @@
+
+[
+   {
+      "name": "Recipe Page",
+      "description": "Cooking Recipe Page",
+      "url": "https://recipe-page-by-walidmh.netlify.app/",
+      "categories": ["all" , "front end" , "responsive" ],
+      "cover" : "https://lh3.google.com/u/0/d/1m4lHEYkIGQaUwjuXp_FFFThiOEr0xOup=w1920-h937-iv1"
+   },
+   {
+      "name": "glassy cards",
+      "description": "",
+      "url": "https://glassy-cards-by-walidmh.netlify.app/",
+      "categories": ["all" , "front end" ],
+      "cover" : "https://lh3.google.com/u/0/d/1pxw6Dvok7YGOf4OvOJ8lV3T_AtTIS2EF=w1365-h937-iv1"
+   },
+   {
+      "name": "my team page",
+      "description": "My team page",
+      "url": "https://my-team-page-by-walidmh.netlify.app/",
+      "categories": ["all" , "front end" , "responsive" ],
+      "cover" : "https://lh3.google.com/u/0/d/1QeYIUX-3hTHro3pdPb8LaSRIqYyZ1j04=w1365-h937-iv1"
+   },
+
+   {
+      "name": "my team page",
+      "description": "My team page",
+      "url": "https://my-team-page-by-walidmh.netlify.app/",
+      "categories": ["all" , "front end" , "responsive" ],
+      "cover" : "https://lh3.google.com/u/0/d/1QeYIUX-3hTHro3pdPb8LaSRIqYyZ1j04=w1365-h937-iv1"
+   },
+
+   {
+      "name": "interior consultant",
+      "description": "interior consultant",
+      "url": "https://interior-consultant-by-walidmh.netlify.app",
+      "categories": ["all" , "front end" , "responsive" ],
+      "cover" : "https://lh3.google.com/u/0/d/1CQmhG1ffhN6-JYtMY9uJs0GMQ5e1dzCc=w1365-h937-iv1"
+   },
+
+   {
+      "name": "404 Page",
+      "description": ">404 Page",
+      "url": "https://404page-by-walidmh.netlify.app",
+      "categories": ["all" , "front end" , "responsive" ],
+      "cover" : "https://lh3.google.com/u/0/d/15ocgf8h3NiD120YigI9z86z62KiirCvL=w1365-h937-iv1"
+   },
+
+   {
+      "name": "E-Commerce Checkout Page",
+      "description": "E-Commerce Checkout Page",
+      "url": "https://checkout-page-by-walidmh.netlify.app/",
+      "categories": ["all" , "front end" , "responsive" ],
+      "cover" : "https://lh3.google.com/u/0/d/1u7CNE6bxlSmF8015ZtSRlXc2MyC_nLb6=w1365-h937-iv1"
+   },
+
+   {
+      "name": "Gallery Profile",
+      "description": "Pintrest Profile Clone",
+      "url": "https://my-gallery-by-walidmh.netlify.app/",
+      "categories": ["all" , "front end" , "responsive" ],
+      "cover" : "https://lh3.google.com/u/0/d/1VrXAiFrhoHu33bMXu3JsQIKQaY82_5RO=w1365-h937-iv1"
+   },
+
+   {
+      "name": "Tic Tac Toe",
+      "description": "Tic Tac Toe game.",
+      "url": "https://tic-tac-toe-by-walidmh.netlify.app/",
+      "categories": ["all" , "front end" , "responsive" ],
+      "cover" : "https://lh3.google.com/u/0/d/1A-nuOsmdjhgFoFOKQzqmYGluwpMX8bRz=w1365-h937-iv1"
+   },
+
+   
+
+   {
+      "name": "Calculator",
+      "description": "Scientific Calculator Web App",
+      "url": "https://calculator-by-walidmh.netlify.app/",
+      "categories": ["all" , "front end" , "responsive" ],
+      "cover" : "https://lh3.google.com/u/0/d/1UMz2mqg7ZeJXv1rqg4OultLlD5NNKr5K=w1365-h937-iv1"
+   },
+
+   {
+      "name": "Rock Paper Scissors",
+      "description": "Rock Paper Scissors game.",
+      "url": "https://rock-paper-scissors-by-walidmh.netlify.app/",
+      "categories": ["all" , "front end" , "responsive" ],
+      "cover" : "https://lh3.google.com/u/0/d/1esG6ey8LBfOKVzTGcgeiJGgUUqNXVPPq=w1365-h937-iv1"
+   },
+   
+   {
+      "name": "Button Generator",
+      "description": "CSS Button Generator",
+      "url": "https://button-generator-by-walidmh.netlify.app/",
+      "categories": ["all" , "front end" , "responsive" ],
+      "cover" : "https://lh3.google.com/u/0/d/1u05oregMiowIHxD9F5cPK7p_BXlXMKPm=w1365-h937-iv1"
+   },
+
+
+   {
+      "name": "Edie Homepage",
+      "description": "Simple Homepage",
+      "url": "https://edie-homepage-by-walidmh.netlify.app/",
+      "categories": ["all" , "front end" , "responsive" ],
+      "cover" : "https://lh3.google.com/u/0/d/1Bzg6qZBdVa4RiV4IaKgqzZ0T0xRkzZRH=w1365-h937-iv1"
+   },
+
+   {
+      "name": "To Do App",
+      "description": "Simple LocalStorage-based To Do Web App",
+      "url": "https://to-do-list-by-walidmh.netlify.app/",
+      "categories": ["all" , "front end" , "responsive" ],
+      "cover" : "https://lh3.google.com/u/0/d/1W4Z7Gm9x6KqJ-vGMjp08j5vQ37iKSblP=w1365-h937-iv1"
+   }
+
+   
+]
+
+
+
+
