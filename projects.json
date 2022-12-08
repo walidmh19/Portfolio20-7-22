@@ -111,6 +111,13 @@
       "url": "https://to-do-list-by-walidmh.netlify.app/",
       "categories": ["all" , "front end" , "responsive" ],
       "cover" : "https://lh3.google.com/u/0/d/1W4Z7Gm9x6KqJ-vGMjp08j5vQ37iKSblP=w1365-h937-iv1"
+   },
+   {
+      "name": "Password Generator",
+      "description": "functional password generator with strength test",
+      "url": "https://password-generator-by-walidmh.netlify.app/",
+      "categories": ["all" , "front end" , "responsive" ],
+      "cover" : "https://lh3.google.com/u/0/d/1BA5x-dKoX27oqCQsreTDgJD6dPJttUE2=w2000-h1124-iv1"
    }
 
    
