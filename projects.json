@@ -118,6 +118,13 @@
       "url": "https://password-generator-by-walidmh.netlify.app/",
       "categories": ["all" , "front end" , "responsive" ],
       "cover" : "https://lh3.google.com/u/0/d/1BA5x-dKoX27oqCQsreTDgJD6dPJttUE2=w2000-h1124-iv1"
+   },
+   {
+      "name": "Dark Side Of The Moon",
+      "description": "Dark Side Of The Moon watch landing page",
+      "url": "https://dark-side-of-the-moon-by-walidmh.netlify.app/",
+      "categories": ["all" , "front end" ],
+      "cover" : "https://lh3.google.com/u/0/d/1oyXWuW8K7bnQ8g-BR6epmopEScBMZbPX=w2000-h1100-iv1"
    }
 
    
