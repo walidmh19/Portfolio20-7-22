@@ -545,7 +545,7 @@ form input[type="submit"]{
 .projectDescription{
     font-size: 1.3rem;
 }
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1600px) {
     .project div .Btn{
         font-size: 1rem;
         padding: 0.25rem 0.5rem;
@@ -554,12 +554,18 @@ form input[type="submit"]{
         font-size: 1.4rem;
     }
     .projectDescription{
-        font-size: 1rem;
+        font-size: 0.9rem;
     }
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1400px) {
+    .project div{
+        height: 80%;
+    } 
+
+}
+@media screen and (max-width: 1250px) {
     .projectDescription{
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
     /* .project div{
         height: 100%;
