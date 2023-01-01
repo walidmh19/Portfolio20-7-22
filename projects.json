@@ -113,6 +113,13 @@
       "cover" : "https://lh3.google.com/u/0/d/1W4Z7Gm9x6KqJ-vGMjp08j5vQ37iKSblP=w1365-h937-iv1"
    },
    {
+      "name": "countries quiz",
+      "description": "2 play modes, flag & capital guessing",
+      "url": "https://countries-quiz-by-wallidmh.netlify.app/",
+      "categories": ["all" , "front end" , "responsive" ],
+      "cover" : "https://lh3.googleusercontent.com/fife/AAbDypCde2eyMC7oECqHyg8iPTluYt70peTq874WDBC25tfvDDeCMvBY7fQy5UJ-I4ex6ztgqAM0dZPzHkhRAHHuUFXztTkz__rukR8q71576bnneUfQTOsfFkgZptypGPTh5f3hA0ZUcVOjJ58KY5iAUkT1RnVBxVJwtgoDBdVlKPoEfHA6QnEKlQ0_DYvh-5s5EcJcPBR8Yg1kGPrPB-JHDoMj2EjxXvI9zS2Prq4YR9eOgNtA4qbC0g1P0iVEFYZJGY9_ADI0fH7_CrenHn34bVAk0Mv8x0NA7leHrLDHI_q4-oFSAnUIqNin3iV_Dk8go60m2FrLFahTjrjQazAJ8hAEgzHE4plI3Q8MAZdvpMubbEsYIbjkpni8ylyRFce91NUYyAoX_v0cm-w5-nZpuMX0dUPs7lPu5Hltpy8pxexVtrSHeSbXF3hod140vHa9gWYOmnzouCjiFIjrODmEWPKigObLd2l-F6hEywVataelhstuACJuHZ0-VeArwiW1R7S9NQmbKHCcZJVfaF_0P_4z_1VyKKfWJac8xGl8bYZIoM7j2ncKnbD73Nh8FwlGxFit9NX4k8vIHy0QsBb-EBJyL_H9QTuW3JDXY4-clFxOJdYdyqh7ZO7iNOJOdeoViY44okhp3wIQvSmfAN5WuriaIGzipwyCKgQL_Ri3yCQe1GTa1KzNhqZF6ShiRJahKITPWva4b1_nDGT4T9Q4qXyp_vbHBbZQX4KMI6zEFLyNUGrv-NkPMA-HD6SSIsVRNx0yXbt_XwJ6Gc6E6BIf7Y1Lvv3CFopynvKZEhkBOSnbQ-XOU6w3NN4mSnAR6S7219ifCGDVb59O3sU5mMS-9-X1vw-Mgxlok7wuXxqcVgcAK4vx5cB6s4_i3Lrb_nL78tRiwbZucI3-Wqam4Jgwq0V2uhC6EZdM_QgBc0Igcsz9qvQbuOFlbZGZcUEwGbl3pA580Xys9CQJ3C3ps97GdM6-OJm02Kyh7Z1xyZipYOtGAWev_ox-c20J9vkrBNG9ojoQKC-_c5sS1aVGf7CbMaARuApIMJ5Sr97M8cF9AcugI_Zfa7j8c5mF8ObtJdNZJ9b5URp6H_ZWa_w2lUQ6t4hWDLwMezUiFXS99UQI7TwJsfnt5hX-qgQvXKF4P8vxgBqDSP6Ody4iU_EMceTrVMVyMalJdb5ctOr-64jzn7pTsOwgrPJA6lJ2EmDVuW4RuGY6eQihVWkfrnYxoXa3BxECw1xBmsd1lYDXN0UDfZS2GFRCF-KNj4YH_3L235E4qBifJYv6L9er7ZfhoI7BLtNWASJj1zQm5fS4IGtx-b2h2cuRcVNEiiTMUPBWeixQx7T_qVORg-mZJFIJFMWEE_NhYU-WRyt8hRMtorVB5MNi6wh7hOPDcbIJwsuOYyOol-Y8czV8fGw-LOlVwJsJ8JoqKBGXav56wesPaqpE2PiimJaIY5CvsBN63UhcTF7y2l4BiGidFORM0A=w1606-h900"
+   },
+   {
       "name": "Password Generator",
       "description": "functional password generator with strength test",
       "url": "https://password-generator-by-walidmh.netlify.app/",
