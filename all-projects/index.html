@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#72a1cb">
+    <title>All Projects</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="all-projects.css">
+    <link rel="shortcut icon" href="images/nav logo.png" type="image/x-icon">
+    <script src="../main.js" defer></script>
+    <script src="see-more.js" defer></script>
+</head>
+<body>
+
+    <!-- Nav bar -->
+    <nav id="nav">
+        <a href="#" id="navLogo" ><img src="../images/nav logo.png" alt=""></a>
+        <div class="navList" id="navList">
+            
+            <a href="../#home" class="navLink " id="homeBtn" class="homeBtn">Home</a>
+            <a href="../#services" class="navLink" id="servicesBtn">Services</a>
+            <a href="../#projects" class="navLink navlinkActive" id="projectsBtn">Projects</a>
+            <a href="../#skills" class="navLink" id="skillsBtn">Skills</a>
+            <a href="../#contact" class="navLink" id="contactsBtn">Contact</a>
+            <a href="#" id="cvBtn" class="Btn navLink">Download Cv!</a>
+            
+            <div class="hamburgerMenu" onclick="navOpen('navOpener')">
+                <div class="menuUp"></div>
+                <div class="menuCenter"></div>
+                <div class="menuDown"></div>
+            </div>
+        </div>
+        <div class="hamburgerMenu" id="navOpener" onclick="navOpen(this.id)">
+            <div class="menuUp"></div>
+            <div class="menuCenter"></div>
+            <div class="menuDown"></div>
+        </div>
+    </nav>
+
+    <!-- Body -->
+
+    <section id="allProjects">
+        <h1 class="sectionTitle">All Of My Projects</h1>
+
+        <div class="filters">
+            <p>Filters :</p>
+            <button class="filterActive filters" id="allFilter" onclick="filter(this.innerText.toLowerCase() , this.id)">All</button>
+            <button class="filters" id="fullStackFilter" onclick="filter(this.innerText.toLowerCase() , this.id)">Full Stack</button>
+            <button class="filters" id="frontendFilter" onclick="filter(this.innerText.toLowerCase() , this.id)">Front End</button>
+            <button class="filters" id="responsiveFilter" onclick="filter(this.innerText.toLowerCase() , this.id)">Responsive</button>
+        </div>
+
+        <div class="moreProjectsGridContainer">
+            
+
+
+          
+        </div>
+    </section>
+</body>
+</html>

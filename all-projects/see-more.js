@@ -1,7 +1,6 @@
 const container = document.querySelector('.moreProjectsGridContainer')
-      fetch('./projects.json').then(res => res.json()).then(projects=> {
+      fetch('../projects.json').then(res => res.json()).then(projects=> {
         projects.reverse().forEach(project => {
-         console.log(project);
          let projectContainer = document.createElement('div')
          projectContainer.classList.add('project')
          projectContainer.setAttribute('data-filters' , JSON.stringify(project.categories))
