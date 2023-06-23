@@ -6,7 +6,7 @@ const container = document.querySelector('.moreProjectsGridContainer')
          projectContainer.setAttribute('data-filters' , JSON.stringify(project.categories))
 
          let projectImg = document.createElement('img')
-         projectImg.src = project.cover
+         projectImg.src = `.${project.cover}`
 
          let projectInfos = document.createElement('div')
          
