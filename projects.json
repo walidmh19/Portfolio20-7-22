@@ -145,6 +145,13 @@
       "url": "https://countries-challenge-by-walidnh.netlify.app/",
       "categories": ["all" , "front end" , "responsive" ],
       "cover" : "./projects-images/countries-challenge.png"
+   },
+   {
+      "name": "Boldo landing page",
+      "description": "multi-page modern landing page",
+      "url": "https://boldo-landing-page-by-walidmh.netlify.app/",
+      "categories": ["all" , "front end" , "responsive" , "backend"],
+      "cover" : "./projects-images/boldo-landing-page.jpg"
    }
 
    
