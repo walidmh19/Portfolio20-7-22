@@ -152,6 +152,13 @@
       "url": "https://boldo-landing-page-by-walidmh.netlify.app/",
       "categories": ["all" , "front end" , "responsive" , "backend"],
       "cover" : "./projects-images/boldo-landing-page.jpg"
+   },
+   {
+      "name": "Unsplash Clone",
+      "description": "working unsplash clone with login/signup",
+      "url": "http://unsplash-clone-by-walidmh.free.nf/?i=1",
+      "categories": ["all" , "front end" , "responsive" , "backend"],
+      "cover" : "./projects-images/unsplash-clone.png"
    }
 
    
