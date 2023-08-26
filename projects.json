@@ -154,11 +154,42 @@
       "cover" : "./projects-images/boldo-landing-page.jpg"
    },
    {
+      "name": "Image Uploader",
+      "description": "working Image Uploader that generates link for uploaded images",
+      "url": "https://image-uploader-walidmh.rf.gd/?i=1",
+      "categories": ["all" , "front end" , "responsive" , "full stack"],
+      "cover" : "./projects-images/image-uploader.png"
+   },
+   {
       "name": "Unsplash Clone",
       "description": "working unsplash clone with login/signup",
-      "url": "http://unsplash-clone-by-walidmh.free.nf/?i=1",
+      "url": "https://unsplash-clone-walidmh.rf.gd/",
       "categories": ["all" , "front end" , "responsive" , "full stack"],
       "cover" : "./projects-images/unsplash-clone.png"
+   },
+   {
+      "name": "KatWiki",
+      "description": "A website that provides information about cat breeds all over the world",
+      "url": "https://catwiki-walidmh.rf.gd/",
+      "categories": ["all" , "front end" , "responsive" , "full stack"],
+      "cover" : "./projects-images/catwiki.png"
+   }
+   ,
+   {
+      "name": "Authentication app",
+      "description": "you can create account and login and change your info whenever you want",
+      "url": "http://authentication-walidmh.rf.gd/login/",
+      "categories": ["all" , "front end" , "responsive" , "full stack"],
+      "cover" : "./projects-images/catwiki.png"
+   }
+   
+   ,
+   {
+      "name": "Shoppingify",
+      "description": "shopping cart system",
+      "url": "https://shoppingify-walidmh.rf.gd/",
+      "categories": ["all" , "front end" , "responsive" , "full stack"],
+      "cover" : "./projects-images/shoppingify.png"
    }
 
    
