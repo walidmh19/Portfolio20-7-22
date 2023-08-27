@@ -40,6 +40,7 @@ const container = document.querySelector('.projectsGridContainer')
          projectContainer.setAttribute('data-filters' , projects[i].categories)
 
          let projectImg = document.createElement('img')
+         projectImg.setAttribute('loading','lazy')
          projectImg.src = projects[i].cover
 
          let projectInfos = document.createElement('div')

@@ -180,7 +180,7 @@
       "description": "you can create account and login and change your info whenever you want",
       "url": "http://authentication-walidmh.rf.gd/login/",
       "categories": ["all" , "front end" , "responsive" , "full stack"],
-      "cover" : "./projects-images/catwiki.png"
+      "cover" : "./projects-images/authentication-app.png"
    }
    
    ,
