@@ -399,7 +399,7 @@ a.githubBtn{
     border-radius: 100vmax;
     background: var(--light);
     position: relative;
-    background: conic-gradient(var(--blue) calc(attr(data-progress) * 3.6deg) , var(--light) calc(attr(data-progress) * 3.6deg));
+    background: conic-gradient(var(--blue) calc(attr(data-progress number) * 3.6deg) , var(--light) calc(attr(data-progress number) * 3.6deg));
     margin: auto;
 }
 
