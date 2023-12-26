@@ -24,7 +24,7 @@ for (let i = 0; i < skillcirclesArr.length; i++) {
 }
 
 }
-
+circlesDisplay()
 // projects display
 
            
