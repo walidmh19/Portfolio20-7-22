@@ -186,7 +186,7 @@
    ,
    {
       "name": "Shoppingify",
-      "description": "shopping cart system",
+      "description": "shopping cart systeme",
       "url": "https://shoppingify-walidmh.rf.gd/",
       "categories": ["all" , "front end" , "responsive" , "full stack"],
       "cover" : "./projects-images/shoppingify.png"
